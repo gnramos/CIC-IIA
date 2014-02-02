@@ -1,0 +1,15 @@
+# ignore all bin directories
+# matches "bin" in any subfolder
+build/
+bin/
+lib/
+.DS_Store
+
+libGames/games/Pub/PubSimplePlayer.*
+libGames/games/Pub/PubSimplePlayer.*
+libGames/games/Pub/PubSimplePlayer.*
+libIIA/examples/n_queen.to-do
+
+# Sublime-Text Project
+IIA.sublime-project
+IIA.sublime-workspace

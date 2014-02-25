@@ -94,7 +94,7 @@ macro (ADD_DOC_TARGET)
 
 		if (NOT EXISTS ${DOC_OUTPUT_PATH})
 			add_custom_target (${DOC_TARGET}
-								COMMAND mkdir ${DOC_OUTPUT_PATH}
+								COMMAND mkdir -p ${DOC_OUTPUT_PATH}
 								COMMAND ${DOXYGEN_EXECUTABLE} ${DOXYFILE}
 								COMMENT "Gerando documentação em \"${DOC_OUTPUT_DIR}\"..."
 								WORKING_DIRECTORY ${PROJECT_SOURCE_DIR})

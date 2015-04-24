@@ -22,7 +22,7 @@
 #endif	/* IIA_LIB_H */
 
 /**
- * @mainpage Projeto %IIA
+ * @mainpage Projeto IIA
  *
  * A ideia é implementar os algoritmos relacionados à disciplina <b>Introdução a
  * Inteligência Artificial</b> (<a href="http://www.serverweb.unb.br/matriculaweb/graduacao/oferta dados.aspx?cod=116653&dep=116">116653</a>),
